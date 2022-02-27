@@ -1,0 +1,24 @@
+Task 2: Javascript & JQuery
+1.	What?
+-	JS:
+    + là ngôn ngữ lập trình phía máy khách(client), phổ biến nhất và là ngôn ngữ không thể thiếu khi lập trình web
+    + được sử dụng kết hợp với HTML, CSS để thiết kế website động
+-	JQuery:
+    + là một thư viện Javascript, giúp xây dựng những chức năng sử dụng JS một cách dễ dàng hơn
+    + được tích hợp nhiều module khác nhau từ hiệu ứng cho đến truy vấn selector
+    + các module: Ajax, Atributes, Effect, Event, Form, DOM, Selector
+2.	Why?
+(Tại sao nên sử dụng JQuery thay cho JS thuần)
+-	Sử dụng thư viện sẽ hỗ trợ tốt hơn
+-	Không mất quá nhiều thời gian xử lý hiểu ứng 
+-	Giúp lập trình nhanh, code ngắn gọn hơn
+-	Đảm bảo chạy hầu hết trên các trình duyệt, điều này rất khó khi sử dụng JS
+-	Hỗ trợ nhiều hàm, nhiều thuộc tính giúp tạo ra hiệu ứng nhanh chóng
+•	Nhược điểm:
+-   Làm client chậm hợn: client không chỉ hiển thị nữa và mà còn phải xử lý nhiều chức năng từ jquery 
+-	Cần tải thư viện về để sử dụng
+-   Nếu sử dụng link CDN có thể bị ảnh hưởng khi mất mạng hoặc khi sever chứa link CDN bị sập
+-   So với JS thuần thì một số chức năng có thể không có do chưa được phát triển => phải sử dụng JS thuần để xử lý
+3.	When?
+-   Sử dụng khi muốn tạo website động, cần hiệu ứng
+-   Cần khi thao tác khác cho website: hiển thị thông báo, chuyển trang, đóng cửa sổ, ... 
