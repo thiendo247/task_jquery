@@ -2,23 +2,38 @@ Task 2: Javascript & JQuery
 1.	What?
 -	JS:
     + là ngôn ngữ lập trình phía máy khách(client), phổ biến nhất và là ngôn ngữ không thể thiếu khi lập trình web
-    + được sử dụng kết hợp với HTML, CSS để thiết kế website động
+    + được sử dụng kết hợp với HTML, CSS để thiết kế website động: HTML, CSS chỉ giúp website hiển thị nội dung tĩnh còn JS giúp có thể tương tác và truy xuất thông tin từ website
+(các slideshow, pop-up thông báo hay quảng cáo, xử lý các sự kiện như là click chuột, di chuyển chuột)
 -	JQuery:
     + là một thư viện Javascript, giúp xây dựng những chức năng sử dụng JS một cách dễ dàng hơn
     + được tích hợp nhiều module khác nhau từ hiệu ứng cho đến truy vấn selector
     + các module: Ajax, Atributes, Effect, Event, Form, DOM, Selector
+    + các tính năng chính như: tương tác với HTML DOM, CSS, bắt và xử lý sự kiện HTML, các hiệu ứng và chuyển động HTML
 2.	Why?
-(Tại sao nên sử dụng JQuery thay cho JS thuần)
+ *) Javascript:
+>> Ưu điểm
+- Ngôn ngữ lập trình dễ học: cú pháp đơn giản không cầu kì
+- Có thể hoạt động trên nhiều trình duyệt, nền tảng
+- Giúp người dùng tương tác tốt với website: có thể sử dụng để kiểm tra input
+>> Nhược điểm
+- Ngôn ngữ dễ bị khai thác: có thể dùng để thực thi mã độc trên máy tính người dùng(vấn đề bảo mật)
+ *) Jquery: 
+>> Ưu điểm
 -	Sử dụng thư viện sẽ hỗ trợ tốt hơn
--	Không mất quá nhiều thời gian xử lý hiểu ứng 
+-	Không mất quá nhiều thời gian xử lý hiệu ứng 
 -	Giúp lập trình nhanh, code ngắn gọn hơn
 -	Đảm bảo chạy hầu hết trên các trình duyệt, điều này rất khó khi sử dụng JS
 -	Hỗ trợ nhiều hàm, nhiều thuộc tính giúp tạo ra hiệu ứng nhanh chóng
-•	Nhược điểm:
+>> Nhược điểm:
 -   Làm client chậm hợn: client không chỉ hiển thị nữa và mà còn phải xử lý nhiều chức năng từ jquery 
 -	Cần tải thư viện về để sử dụng
 -   Nếu sử dụng link CDN có thể bị ảnh hưởng khi mất mạng hoặc khi sever chứa link CDN bị sập
 -   So với JS thuần thì một số chức năng có thể không có do chưa được phát triển => phải sử dụng JS thuần để xử lý
 3.	When?
--   Sử dụng khi muốn tạo website động, cần hiệu ứng
+*) Javascript
+-   Cần sử dụng khi xây dựng website dựa vào những ưu nhược điểm đã được kể trên
+-   Có thể sử dụng khi xây dưng các tool tự động, các đoạn mã script sử dụng cho bảo mật  
 -   Cần khi thao tác khác cho website: hiển thị thông báo, chuyển trang, đóng cửa sổ, ... 
+*) Jquery
+- vì nó là thư viện được xây dừng từ JS nên có thể dùng Jquery để xây dựng website nhanh hơn 
+- khi muốn kiểm tra dữ liệu đầu vào các thành phần input cho form
